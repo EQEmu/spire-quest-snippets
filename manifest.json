@@ -6,6 +6,7 @@
     {"file": "perl/hpevent.snip", "text": "hp", "language":  "perl"},
     {"file": "perl/timer.snip", "text": "timer", "language":  "perl"},
     {"file": "perl/signal.snip", "text": "signal", "language":  "perl"},
+    {"file": "perl/reset.snip", "text": "reset", "language":  "perl"},
     {"file": "lua/hail.snip", "text": "Hail", "language":  "lua"},
     {"file": "all/color-codes.csv", "text": "Chat color codes", "language":  "all"}
   ]
