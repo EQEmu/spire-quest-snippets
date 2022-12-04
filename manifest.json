@@ -10,6 +10,16 @@
     {"file": "perl/handin.snip", "text": "handin", "language":  "perl"},
     {"file": "perl/handin_reward.snip", "text": "handin-reward", "language":  "perl"},
     {"file": "perl/handin_task.snip", "text": "handin-task", "language":  "perl"},
+    {"file": "perl/foreach_array.snip", "text": "foreach-array", "language":  "perl"},
+    {"file": "perl/foreach_array_sort.snip", "text": "foreach-array-sort", "language":  "perl"},
+    {"file": "perl/foreach_array_sort_reverse.snip", "text": "foreach-array-sort-reverse", "language":  "perl"},
+    {"file": "perl/foreach_array_sort_alpha.snip", "text": "foreach-array-sort-alpha", "language":  "perl"},
+    {"file": "perl/foreach_array_sort_alpha_reverse.snip", "text": "foreach-array-sort-alpha-reverse", "language":  "perl"},
+    {"file": "perl/foreach_hash.snip", "text": "foreach-hash", "language":  "perl"},
+    {"file": "perl/foreach_hash_sort.snip", "text": "foreach-hash-sort", "language":  "perl"},
+    {"file": "perl/foreach_hash_sort_reverse.snip", "text": "foreach-hash-sort-reverse", "language":  "perl"},
+    {"file": "perl/foreach_hash_sort_alpha.snip", "text": "foreach-hash-sort-alpha", "language":  "perl"},
+    {"file": "perl/foreach_hash_sort_alpha_reverse.snip", "text": "foreach-hash-sort-alpha-reverse", "language":  "perl"},
     {"file": "lua/hail.snip", "text": "Hail", "language":  "lua"},
     {"file": "all/color-codes.csv", "text": "Chat color codes", "language":  "all"}
   ]
