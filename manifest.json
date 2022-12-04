@@ -1,8 +1,8 @@
 {
   "files": [
-    {"file": "perl/hail.pl", "text": "Hail", "language":  "perl"},
-    {"file": "perl/if.pl", "text": "if (condition)", "language":  "perl"},
-    {"file": "lua/hail.lua", "text": "Hail", "language":  "lua"},
+    {"file": "perl/hail.snip", "text": "Hail", "language":  "perl"},
+    {"file": "perl/if.snip", "text": "if (condition)", "language":  "perl"},
+    {"file": "lua/hail.snip", "text": "Hail", "language":  "lua"},
     {"file": "all/color-codes.csv", "text": "Chat color codes", "language":  "all"}
   ]
 }
