@@ -1,5 +1,7 @@
 if (plugin::check_handin(\%itemcount,${1:item_id1}=>${2:quantity1})) {
   quest::say("${3:response}");
+  quest::summonitem(${4:item_id});
+  quest::faction(${5:faction_id}, ${6:faction_value});
   quest::ding();
 }
 plugin::return_items(\%itemcount); # return unused items
