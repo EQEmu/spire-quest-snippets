@@ -2,6 +2,7 @@
   "files": [
     {"file": "perl/hail.snip", "text": "Hail", "language":  "perl"},
     {"file": "perl/if.snip", "text": "if (condition)", "language":  "perl"},
+    {"file": "perl/timer.snip", "text": "timer", "language":  "perl"},
     {"file": "lua/hail.snip", "text": "Hail", "language":  "lua"},
     {"file": "all/color-codes.csv", "text": "Chat color codes", "language":  "all"}
   ]
