@@ -25,6 +25,10 @@
     {"file": "perl/foreach_mob_list.snip", "text": "foreach-mob-list", "language":  "perl"},
     {"file": "perl/foreach_npc_list.snip", "text": "foreach-npc-list", "language":  "perl"},
     {"file": "lua/hail.snip", "text": "Hail", "language":  "lua"},
+    {"file": "lua/foreach_bot_list.snip", "text": "foreach-bot-list", "language":  "lua"},
+    {"file": "lua/foreach_client_list.snip", "text": "foreach-client-list", "language":  "lua"},
+    {"file": "lua/foreach_mob_list.snip", "text": "foreach-mob-list", "language":  "lua"},
+    {"file": "lua/foreach_npc_list.snip", "text": "foreach-npc-list", "language":  "lua"},
     {"file": "all/color-codes.csv", "text": "Chat color codes", "language":  "all"}
   ]
 }
