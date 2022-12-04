@@ -1,0 +1,8 @@
+if (plugin::check_handin(\%itemcount,${1:itemId1}=>${2:quantity1})) {
+    quest::say("${3:response}");
+    quest::updatetaskactivity(${4:taskId}, ${5:updateQuantity});
+    quest::summonitem(${6:itemId});
+    quest::faction(${7:factionId}, ${6:factionValue});
+    quest::ding();
+  }
+  plugin::return_items(\%itemcount); # return unused items
