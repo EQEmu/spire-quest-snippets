@@ -1,4 +1,4 @@
-if (plugin::check_handin(\%itemcount,${1:item_id1}=>${2:quantity1})) {
+if (plugin::check_handin(\%itemcount,${1:item_id1} => ${2:quantity1})) {
   quest::say("${3:response}");
   quest::ding();
 }
