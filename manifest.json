@@ -15,11 +15,15 @@
     {"file": "perl/foreach_array_sort_reverse.snip", "text": "foreach-array-sort-reverse", "language":  "perl"},
     {"file": "perl/foreach_array_sort_alpha.snip", "text": "foreach-array-sort-alpha", "language":  "perl"},
     {"file": "perl/foreach_array_sort_alpha_reverse.snip", "text": "foreach-array-sort-alpha-reverse", "language":  "perl"},
+    {"file": "perl/foreach_bot_list.snip", "text": "foreach-bot-list", "language":  "perl"},
+    {"file": "perl/foreach_client_list.snip", "text": "foreach-client-list", "language":  "perl"},
     {"file": "perl/foreach_hash.snip", "text": "foreach-hash", "language":  "perl"},
     {"file": "perl/foreach_hash_sort.snip", "text": "foreach-hash-sort", "language":  "perl"},
     {"file": "perl/foreach_hash_sort_reverse.snip", "text": "foreach-hash-sort-reverse", "language":  "perl"},
     {"file": "perl/foreach_hash_sort_alpha.snip", "text": "foreach-hash-sort-alpha", "language":  "perl"},
     {"file": "perl/foreach_hash_sort_alpha_reverse.snip", "text": "foreach-hash-sort-alpha-reverse", "language":  "perl"},
+    {"file": "perl/foreach_mob_list.snip", "text": "foreach-mob-list", "language":  "perl"},
+    {"file": "perl/foreach_npc_list.snip", "text": "foreach-npc-list", "language":  "perl"},
     {"file": "lua/hail.snip", "text": "Hail", "language":  "lua"},
     {"file": "all/color-codes.csv", "text": "Chat color codes", "language":  "all"}
   ]
