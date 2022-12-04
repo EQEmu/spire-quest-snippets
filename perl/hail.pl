@@ -1,3 +1,3 @@
 if (\$text=~/hail/i) {
-    quest::say("Hail!");$0
-} 
+\tquest::say("Hail!");$0
+}
