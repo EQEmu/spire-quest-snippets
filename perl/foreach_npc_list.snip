@@ -1,4 +1,4 @@
 my @npc_list = \$entity_list->GetNPCList();
 foreach my \$n (@npc_list) { # For each NPC entity in NPC list, do something
-	${2:logic}
+	${1:logic} # Example of using NPC entity: \$n->GetCleanName()
 }

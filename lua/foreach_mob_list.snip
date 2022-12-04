@@ -1,4 +1,4 @@
 local mob_list = eq.get_entity_list():GetMobList();
 for m in mob_list.entries do -- For each mob entity in mob list, do something
-    ${2:logic}
+    ${1:logic} -- Example of using mob entity: m:GetCleanName()
 end

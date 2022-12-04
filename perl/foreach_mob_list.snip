@@ -1,4 +1,4 @@
 my @mob_list = \$entity_list->GetMobList();
 foreach my \$m (@mob_list) { # For each mob entity in mob list, do something
-	${2:logic}
+	${1:logic} # Example of using mob entity: \$m->GetCleanName()
 }

@@ -1,4 +1,4 @@
 my @client_list = \$entity_list->GetClientList();
 foreach my \$c (@client_list) { # For each client entity in client list, do something
-	${2:logic}
+	${1:logic} # Example of using client entity: \$c->GetCleanName()
 }
