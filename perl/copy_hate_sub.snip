@@ -1,27 +1,27 @@
 sub copyHateToNPC {
-    my /$sourceNPC = shift;
-    my /$targetNPC = shift;
-    my /$randomize = shift;
+    my \$sourceNPC = shift;
+    my \$targetNPC = shift;
+    my \$randomize = shift;
     my @savedHate = ();
 
     #Save hate from boss
-    my @npc_hatelist = /$sourceNPC->GetHateList();
-    foreach my /$npc_hate_ent (@npc_hatelist) {
-        if (/$npc_hate_ent) {
-        push(@savedHate, /$npc_hate_ent->GetEnt()->GetID());
+    my @npc_hatelist = \$sourceNPC->GetHateList();
+    foreach my \$npc_hate_ent (@npc_hatelist) {
+        if (\$npc_hate_ent) {
+        push(@savedHate, \$npc_hate_ent->GetEnt()->GetID());
         }
     }
 
-    if (/$randomize) {
+    if (\$randomize) {
         shuffleArray(\@savedHate);    # permutes @array in place
     }
     
     #Copy hate to target
-    foreach /$ent_ID (@savedHate) {
-        if (/$ent_ID) {
-            my /$mobTarget = /$entity_list->GetMobByID($ent_ID);
-            if (/$mobTarget) {
-              /$targetNPC->AddToHateList(/$mobTarget);
+    foreach \$ent_ID (@savedHate) {
+        if (\$ent_ID) {
+            my \$mobTarget = \$entity_list->GetMobByID($ent_ID);
+            if (\$mobTarget) {
+              \$targetNPC->AddToHateList(\$mobTarget);
             }          
         }  
     }
@@ -29,11 +29,11 @@ sub copyHateToNPC {
 }
 
 sub shuffleArray {
-    my /$array = shift;
-    my /$i;
-    for (/$i = @/$array; --/$i; ) {
-        my /$j = int rand (/$i+1);
-        next if /$i == /$j;
-        @/$array[/$i,$j] = @/$array[/$j,/$i];
+    my \$array = shift;
+    my \$i;
+    for (\$i = @\$array; --\$i; ) {
+        my \$j = int rand (\$i+1);
+        next if \$i == \$j;
+        @\$array[\$i,$j] = @\$array[\$j,\$i];
     }
 }
