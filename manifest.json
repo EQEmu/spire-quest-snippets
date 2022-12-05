@@ -17,6 +17,7 @@
     {"file": "perl/foreach_array_sort_alpha_reverse.snip", "text": "foreach-array-sort-alpha-reverse", "language":  "perl"},
     {"file": "perl/foreach_bot_list.snip", "text": "foreach-bot-list", "language":  "perl"},
     {"file": "perl/foreach_client_list.snip", "text": "foreach-client-list", "language":  "perl"},
+    {"file": "perl/foreach_hate_list.snip", "text": "foreach-hate-list", "language":  "perl"},
     {"file": "perl/foreach_hash.snip", "text": "foreach-hash", "language":  "perl"},
     {"file": "perl/foreach_hash_sort.snip", "text": "foreach-hash-sort", "language":  "perl"},
     {"file": "perl/foreach_hash_sort_reverse.snip", "text": "foreach-hash-sort-reverse", "language":  "perl"},
@@ -31,6 +32,7 @@
     {"file": "lua/for_pairs_table.snip", "text": "for-pairs-table", "language":  "lua"},
     {"file": "lua/foreach_bot_list.snip", "text": "foreach-bot-list", "language":  "lua"},
     {"file": "lua/foreach_client_list.snip", "text": "foreach-client-list", "language":  "lua"},
+    {"file": "lua/foreach_hate_list.snip", "text": "foreach-hate-list", "language":  "lua"},
     {"file": "lua/foreach_mob_list.snip", "text": "foreach-mob-list", "language":  "lua"},
     {"file": "lua/foreach_npc_list.snip", "text": "foreach-npc-list", "language":  "lua"},
     {"file": "all/color-codes.csv", "text": "Chat color codes", "language":  "all"}

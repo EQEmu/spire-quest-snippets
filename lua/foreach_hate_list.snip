@@ -1,0 +1,7 @@
+local hate_list = e.self:GetHateList();
+for h in hate_list.entries do -- For each hate entity in hate list, do something
+    local e = h.ent;
+    if e.valid then
+        ${1:logic} -- Example of using hate entity: e:Shout(e:GetCleanName())
+    end
+end
