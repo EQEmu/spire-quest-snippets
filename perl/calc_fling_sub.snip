@@ -1,0 +1,19 @@
+sub CalcFling {
+    my \$c = shift;
+    my \$target_x = shift;
+    my \$target_y = shift;
+    my \$target_z = shift;
+    my \$distance = \$c->CalculateDistance(\$target_x, \$target_y, \$target_z);
+    my \$z_diff = 0;
+    my \$val = 1;
+    
+    \$z_diff = \$target_z - \$c->GetZ();
+    if (\$z_diff) {
+        \$val += abs(\$z_diff) /12;
+    }
+    \$val += \$distance /200;
+    \$val++;
+    \$val = abs(\$val);
+    
+    \$c->Fling(\$val, \$target_x, \$target_y, \$target_z,1,1);
+}
