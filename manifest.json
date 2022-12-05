@@ -29,6 +29,7 @@
     {"file": "perl/copy_hate.snip", "text": "copy-hate", "language":  "perl"},
     {"file": "perl/calc_fling_sub.snip", "text": "calc-fling-sub", "language":  "perl"},
     {"file": "perl/calc_fling.snip", "text": "calc-fling", "language":  "perl"},
+    {"file": "perl/popup.snip", "text": "popup-compare", "language":  "perl"},
     {"file": "lua/hail.snip", "text": "Hail", "language":  "lua"},
     {"file": "lua/for_ipairs_table.snip", "text": "for-ipairs-table", "language":  "lua"},
     {"file": "lua/for_pairs_table.snip", "text": "for-pairs-table", "language":  "lua"},
