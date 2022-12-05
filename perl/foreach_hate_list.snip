@@ -1,7 +1,7 @@
 my @hate_list = \$npc->GetHateList();
 foreach my \$h (@hate_list) { # For each hate entity in hate list, do something
-	if ($h) {
-		my $e = $h->GetEnt();
+	if (\$h) {
+		my \$e = \$h->GetEnt();
 		${1:logic} # Example of using hate entity: quest::shout(\$e->GetCleanName())
 	}
 }
