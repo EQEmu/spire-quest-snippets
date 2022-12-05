@@ -9,11 +9,11 @@ sub CalcFling {
     
     \$z_diff = \$target_z - \$c->GetZ();
     if (\$z_diff) {
-        \$val += abs(\$z_diff) /12;
+        \$val += abs(\$z_diff) / 12;
     }
-    \$val += \$distance /200;
+    \$val += \$distance / 200;
     \$val++;
     \$val = abs(\$val);
     
-    \$c->Fling(\$val, \$target_x, \$target_y, \$target_z,1,1);
+    \$c->Fling(\$val, \$target_x, \$target_y, \$target_z, 1, 1);
 }
