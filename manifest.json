@@ -4,6 +4,8 @@
     {"file": "perl/if.snip", "text": "if (condition)", "language":  "perl"},
     {"file": "perl/combat_state.snip", "text": "combat", "language":  "perl"},
     {"file": "perl/hpevent.snip", "text": "hp", "language":  "perl"},
+    {"file": "perl/hpevent5.snip", "text": "hp-5", "language":  "perl"},
+    {"file": "perl/hpevent10.snip", "text": "hp-10", "language":  "perl"},
     {"file": "perl/timer.snip", "text": "timer", "language":  "perl"},
     {"file": "perl/signal.snip", "text": "signal", "language":  "perl"},
     {"file": "perl/reset.snip", "text": "reset", "language":  "perl"},

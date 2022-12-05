@@ -1,0 +1,19 @@
+if (\$hpevent == ${1:hp1}) {
+    quest::setnexthpevent(${2:hp2});
+    ${3:logic}
+}
+elsif (\$hpevent == ${4:hp2}) {
+    quest::setnexthpevent(${5:hp3});
+    ${6:logic}
+}
+elsif (\$hpevent == ${7:hp3}) {
+    quest::setnexthpevent(${8:hp4});
+    ${9:logic}
+}
+elsif (\$hpevent == ${10:hp4}) {
+    quest::setnexthpevent(${11:hp5});
+    ${12:logic}
+}
+elsif (\$hpevent == ${13:hp5}) {
+    ${14:logic}
+}
