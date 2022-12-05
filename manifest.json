@@ -27,6 +27,8 @@
     {"file": "perl/copy_hate_sub.snip", "text": "copy-hate-sub", "language":  "perl"},
     {"file": "perl/copy_hate.snip", "text": "copy-hate", "language":  "perl"},
     {"file": "lua/hail.snip", "text": "Hail", "language":  "lua"},
+    {"file": "lua/for_ipairs_table.snip", "text": "for-ipairs-table", "language":  "lua"},
+    {"file": "lua/for_pairs_table.snip", "text": "for-pairs-table", "language":  "lua"},
     {"file": "lua/foreach_bot_list.snip", "text": "foreach-bot-list", "language":  "lua"},
     {"file": "lua/foreach_client_list.snip", "text": "foreach-client-list", "language":  "lua"},
     {"file": "lua/foreach_mob_list.snip", "text": "foreach-mob-list", "language":  "lua"},
