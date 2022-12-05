@@ -8,7 +8,7 @@ sub copyHateToNPC {
     my @npc_hatelist = \$sourceNPC->GetHateList();
     foreach my \$npc_hate_ent (@npc_hatelist) {
         if (\$npc_hate_ent) {
-        push(@savedHate, \$npc_hate_ent->GetEnt()->GetID());
+            push(@savedHate, \$npc_hate_ent->GetEnt()->GetID());
         }
     }
 
