@@ -27,8 +27,6 @@
     {"file": "perl/foreach_hash_sort_alpha_reverse.snip", "text": "foreach-hash-sort-alpha-reverse", "language":  "perl"},
     {"file": "perl/foreach_mob_list.snip", "text": "foreach-mob-list", "language":  "perl"},
     {"file": "perl/foreach_npc_list.snip", "text": "foreach-npc-list", "language":  "perl"},
-    {"file": "perl/copy_hate_sub.snip", "text": "copy-hate-sub", "language":  "perl"},
-    {"file": "perl/calc_fling.snip", "text": "calc-fling", "language":  "perl"},
     {"file": "perl/popup.snip", "text": "popup-compare", "language":  "perl"},
     {"file": "lua/hail.snip", "text": "Hail", "language":  "lua"},
     {"file": "lua/for_ipairs_table.snip", "text": "for-ipairs-table", "language":  "lua"},
